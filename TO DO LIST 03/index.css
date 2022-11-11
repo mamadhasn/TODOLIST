@@ -1,0 +1,53 @@
+#conteaner,#listcont{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: flex-end;
+        justify-content: center;
+        align-items: baseline;
+    
+      }
+    
+      #listcont{
+        display: flex;
+        align-content: space-between;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: baseline;
+    
+      }
+      #add-work{
+        width: 60%;
+        padding: 1rem;
+    }
+     
+      button{
+        width: 10%;
+        padding: 1rem;
+        font-size: 14px;
+        font-weight: 900;
+        background-color: green;
+      }
+      span{
+        font-size: 30px;
+       
+      }
+      #listcont p{
+        width: 100%;
+        background-color: rgb(197 213 202);
+        color: rgb(0, 0, 0);
+        display: flex;
+        align-content: space-around;
+        justify-content: space-between;
+      }
+     a{
+     
+      background-color: #000000;
+         color: aliceblue;
+        font-size: 29px;
+        border-radius: 102%;
+     }
+     span{
+      
+      margin-right: auto;
+     }
